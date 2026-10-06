@@ -21,3 +21,7 @@ Clone the repository and install it locally:
 
 ```bash
 python -m pip install -e .
+python -m pip install pytest
+pytest -q
+contribradar scan .
+contribradar scan . --json
